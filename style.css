@@ -102,8 +102,16 @@ body {
     border-radius: 50%;
     
   }
-  .drum-kit1,.dictionary-app,.QR-generator,.blogging,.vowelCount {
+  .drum-kit1,.dictionary-app,.QR-generator,.blogging{
     height: 200px;
+    margin-top: 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+
+  }
+  .Kartly{
+    height: 220px;
+    width: 300px;
     margin-top: 25px;
     margin-right: 10px;
     border-radius: 5px;
