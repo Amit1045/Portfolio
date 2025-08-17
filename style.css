@@ -102,22 +102,13 @@ body {
     border-radius: 50%;
     
   }
-  .drum-kit1,.dictionary-app,.QR-generator,.blogging{
+  .drum-kit1,.dictionary-app,.QR-generator,.blogging.Kartly{
     height: 200px;
     margin-top: 25px;
     margin-right: 10px;
     border-radius: 5px;
 
-  }
-  .Kartly{
-    height: 220px;
-    width: 300px;
-    margin-top: 25px;
-    margin-right: 10px;
-    border-radius: 5px;
-
-  }
-  
+  }  
   .copyright {
     color: #eaf6f6;
     font-size: 0.75rem;
