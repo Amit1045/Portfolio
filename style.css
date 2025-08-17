@@ -107,8 +107,9 @@ body {
     margin-top: 25px;
     margin-right: 10px;
     border-radius: 5px;
-  }  
-.Kartly{
+
+  }
+  .kartly{
     height: 220px;
     width: 300px;
     margin-top: 25px;
@@ -116,6 +117,7 @@ body {
     border-radius: 5px;
 
   }
+  
   .copyright {
     color: #eaf6f6;
     font-size: 0.75rem;
