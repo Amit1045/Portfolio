@@ -1,183 +1,213 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amit Yadav | Full Stack Developer</title>
 
-    <title>Amit</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href="./index_files/css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;family=Sacramento&amp;display=swap"
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
         rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+
+    <!-- HERO -->
     <div class="top-container">
         <div class="title-text">
             <h1>I'm Amit.</h1>
-            <h2>a <span class="pro">Web</span> Developer.</h2>
+            <h2>a <span class="pro">Full Stack</span> Developer</h2>
+            <p class="hero-sub">
+                Building scalable & responsive web applications using MERN Stack
+            </p>
         </div>
-        <!-- <img class="mountain" src="./images/image.png" alt="mountain-img"> -->
     </div>
+
+    <!-- ABOUT -->
     <div class="middle-container">
         <div class="profile">
-            <h1 class="middle-text">About</h1>
-            <img src="./images/DevPhoto.jpeg" alt="Amit-profile-img" class="img-dev">
-            <h2 class="hello-intro">Hello.</h2>
-            <p class="intro">As a BTech fresher and aspiring full stack developer, I am proficient in HTML, CSS,
-                JavaScript, ReactJS, EJS, Node.js, and Express. I have hands-on experience with API integration and JWT
-                token-based authentication. My goal is to contribute to dynamic web development projects while
-                continuously improving my skills in both front-end and back-end technologies</p>
-            <a id="resume"
-                href="https://drive.google.com/file/d/1dzry3dU5Tqtd3mTPENBDQhw7YA1HJrOv/view?usp=sharing">VIEW
-                CV</a>
-        </div>
-        <hr>
+            <h1 class="middle-text">About Me</h1>
+            <img src="./images/DevPhoto.jpeg" alt="Amit Profile" class="img-dev" />
+            <h2 class="hello-intro">Hello 👋</h2>
 
+            <p class="intro">
+                I am a B.Tech Computer Science fresher and aspiring Full Stack Developer
+                with hands-on experience in building scalable web applications using
+                React, Node.js, Express, and MongoDB.
+                <br><br>
+                I have worked on real-world projects involving REST APIs, JWT authentication,
+                role-based access control, database design, and UI/UX optimization.
+                I am passionate about writing clean code and continuously improving my skills.
+            </p>
+
+            <a id="resume" href="https://drive.google.com/file/d/1dzry3dU5Tqtd3mTPENBDQhw7YA1HJrOv/view"
+                target="_blank">
+                View Resume
+            </a>
+        </div>
+
+        <hr />
+
+        <!-- PROJECTS -->
         <div class="projects-container">
-            <u>
-                <h2 class="projects">My Projects</h2>
-            </u>
+            <h2 class="projects">Projects</h2>
+
+            <!-- Kartly -->
             <div class="parent">
                 <div class="project-img">
-                    <img src="./images/Kartly.png" alt="Kartly-img" class="kartly">
+                    <img src="./images/Kartly.png" class="kartly" />
                 </div>
                 <div class="coding">
-                    <h3><a href="https://kartly-frontend-92r90okzz-amit1045s-projects.vercel.app/">Kartly App</a></h3>
-                    <p>A full-stack e-commerce platform built with React, Tailwind, Node.js, Express, and MongoDB,
-                        featuring product listing, cart management, and secure JWT authentication. Showcases responsive
-                        UI, REST API integration, and scalable backend design.
+                    <h3><a href="https://kartly-frontend.vercel.app/" target="_blank">Kartly – E-Commerce App</a></h3>
+                    <p>
+                        A full-stack e-commerce platform built using React (Vite), Tailwind CSS,
+                        Node.js, Express, and MongoDB.
+                        Features product listing, cart management, CRUD operations,
+                        and secure JWT authentication.
                     </p>
                 </div>
             </div>
 
-
+            <!-- Dictionary -->
             <div class="parent">
                 <div class="project-img">
-                    <img src="./images/dictionary.png" alt="dictionary-App" class="dictionary-app">
+                    <img src="./images/dictionary.png" class="dictionary-app" />
                 </div>
                 <div class="coding">
-                    <h3><a href="https://github.com/Amit1045/Dictionary">Dictionary & word pronunciation</a></h3>
-                    <p>The Dictionary App is built using Express.js, Axios, and EJS templating. It allows users to
-                        search for English words and fetch their definitions, part of speech, pronunciation audio, and
-                        example usage from the DictionaryAPI. Upon searching, the app dynamically renders results,
-                        handling both successful responses and errors gracefully. This project showcases real-time API
-                        integration,
-                        asynchronous data handling, and dynamic UI rendering in a full-stack Node.js environment.
+                    <h3><a href="https://dictionary-tvty.onrender.com/" target="_blank">Dictionary & Pronunciation
+                            App</a></h3>
+                    <p>
+                        A Node.js & Express based dictionary web app that fetches word meanings,
+                        parts of speech, example usage, and pronunciation audio using Dictionary API.
+                        Demonstrates real-time API integration and server-side rendering.
                     </p>
                 </div>
             </div>
 
-
+            <!-- Drums -->
             <div class="parent">
                 <div class="project-img">
-                    <img src="./images/blue-drum-kit-3927336.png" alt="drum-kit" class="drum-kit1">
+                    <img src="./images/blue-drum-kit-3927336.png" class="drum-kit1" />
                 </div>
                 <div class="coding">
-                    <h3><a href="https://amit1045.github.io/PlayDrumsUsingDom/">Playing Drums</a></h3>
-                    <p>"Playing Drum is an interactive web-based project developed using HTML, CSS, and JavaScript.
-                        The application mimics a band drum set, where pressing specific keys triggers the sound of
-                        corresponding drums.
-                        This project demonstrates key event handling and audio integration, offering a fun and
-                        educational experience in simulating real-life musical instruments."</p>
-                </div>
-            </div>
-
-            <div class="parent">
-                <div class="project-img">
-                    <img src="./images/generateQR.png" alt="QR-generator" class="QR-generator">
-                </div>
-                <div class="coding">
-                    <h3><a href="https://github.com/Amit1045/QR-generator">QR Generator</a></h3>
-                    <p>The QR Generator is a web-based application developed using Node.js, Express, and EJS. It allows
-                        users to generate QR codes by entering any text or URL. The project uses the qrcode and qr-image
-                        libraries to create and render QR codes in real-time. This tool highlights server-side
-                        rendering,
-                        dynamic input handling, and practical use of third-party libraries for efficient and instant QR
-                        code
-                        generation.
+                    <h3><a href="https://amit1045.github.io/PlayDrumsUsingDom/" target="_blank">Play Drums</a></h3>
+                    <p>
+                        An interactive JavaScript project that simulates a drum kit.
+                        Users can play sounds using keyboard keys.
+                        Demonstrates DOM manipulation, keyboard events, and audio handling.
                     </p>
                 </div>
             </div>
 
-
+            <!-- QR -->
             <div class="parent">
                 <div class="project-img">
-                    <img src="./images/blog.png
-              " alt="Blog-img" class="blogging">
+                    <img src="./images/generateQR.png" class="QR-generator" />
                 </div>
                 <div class="coding">
-                    <h3><a href="https://github.com/Amit1045/Blog-API/tree/master">Blog</a></h3>
-                    <p>Blog Post API (Node.js + Express) This project is a simple RESTful API built with Node.js and
-                        Express
-                        to manage a collection of blog posts. It features full CRUD (Create, Read, Update, Delete)
-                        functionality using an in-memory data store (array). Ideal for learning and testing REST API
-                        concepts without using a database.
+                    <h3><a href="https://get-qr-a7ll.onrender.com" target="_blank">QR Code Generator</a></h3>
+                    <p>
+                        A Node.js and Express application that generates QR codes for text or URLs.
+                        Uses third-party libraries and demonstrates server-side rendering
+                        and real-time input processing.
                     </p>
                 </div>
             </div>
 
-            
-        </div>
-    </div>
-    <hr>
-    <div id="skill">
-        <h2 class="skill-heading">SKILLS</h2>
-        <div class="skillShow">
-            <div class="addbasic">
-                <p>HTML,CSS,JS</p>
-                <img src="./images/HtmlCssJSIcon.webp" height="40px">
-            </div>
-            <div class="addbasic">
-                <p>REACT JS</p>
-                <img src="./images/ReactImg.webp" height="40px">
-            </div>
-            <div class="addbasic">
-                <p>NODE.JS,EXRESS</p>
-                <img src="./images/NodejsandExpressImg.png" height="40px">
-            </div>
-            <div class="addbasic">
-                <P> MYSQL,POSTGRESQL</P>
-                <img src="./images/MysqlAndPostgres.jpeg" height="40px">
-            </div>
-            <div class="addbasic">
-                <p>JAVA,C</p>
-                <div>
-                    <img src="./images/Java-Logo.png" height="20px">
-                    <img src="./images/c langIcon.png" height="20x">
+            <!-- Blog -->
+            <div class="parent">
+                <div class="project-img">
+                    <img src="./images/blog.png" class="blogging" />
+                </div>
+                <div class="coding">
+                    <h3><a href="https://github.com/Amit1045/Blog-API/tree/master" target="_blank">Blog REST API</a>
+                    </h3>
+                    <p>
+                        A RESTful Blog API built using Node.js and Express
+                        supporting full CRUD operations.
+                        Ideal for understanding REST architecture and backend data handling.
+                    </p>
                 </div>
             </div>
         </div>
+
+        <hr />
+
+        <!-- SKILLS -->
+        <section id="skill">
+            <h2 class="skill-heading">Skills</h2>
+            <div class="skill-badges">
+                <span>React.js</span>
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>MongoDB</span>
+                <span>REST APIs</span>
+                <span>JWT Auth</span>
+                <span>Git & GitHub</span>
+                <span>Postman</span>
+            </div>
+        </section>
+
+        <hr />
+
+        <!-- EXPERIENCE -->
+        <div class="intership">
+            <h2 class="intern-heading">Experience</h2>
+
+            <div class="intern-card">
+                <h3 class="intern-company-role">Full Stack Developer (MERN) Intern</h3>
+                <p class="intern-company">
+                    Traincape Technology · On-site <br>
+                    <span>Sept 2025 – Dec 2025</span>
+                </p>
+
+                <ul class="intern-detail">
+                    <li>Developed scalable CRM modules using MERN Stack to manage users, leads, and communication
+                        workflows.</li>
+                    <li>Built RESTful APIs for authentication, notifications, contact handling, and user management.
+                    </li>
+                    <li>Implemented secure JWT-based authentication with role-based access control.</li>
+                    <li>Designed and developed complete LMS modules including courses, sections, videos, documents, and
+                        quizzes.</li>
+                    <li>Created MongoDB schemas for courses, videos, quizzes, and student progress tracking.</li>
+                    <li>Worked on frontend components for video playback, learning dashboard, and resource viewing.</li>
+                    <li>Collaborated with the team to improve UI performance and reusable React components.</li>
+                </ul>
+
+                <a class="intern-certificate"
+                    href="https://drive.google.com/file/d/1Sk-Uc8r2SAwO3f8pqKOBwA-Up5FGNsbv/view" target="_blank">
+                    View Internship Certificate
+                </a>
+            </div>
+        </div>
+
+
+        <section class="cta">
+            <h2>Let’s Work Together</h2>
+            <p>
+                I’m open to Full Stack Developer Intern / Fresher roles.
+                Feel free to reach out.
+            </p>
+            <a href="mailto:amitya9854@gmail.com" class="cta-btn">Contact Me</a>
+        </section>
+        <!-- FOOTER -->
+        <div class="bottom-container">
+            <img src="./images/LinkInImg.png" height="20px">
+            <a class="contact1" href="https://www.linkedin.com/in/amit-yadav-489b23311/" target="_blank">LinkedIn</a>
+            <img src="./images/GitHubImg.webp" height="20px">
+            <a class="contact1" href="https://github.com/Amit1045" target="_blank">GitHub</a>
+            <img src="./images/EmailImg.webp" height="20px">
+            <a class="contact1" href="mailto:amitya9854@gmail.com">Email</a>
+            <p class="copyright">© 2025 Amit Yadav | Full Stack Developer</p>
+        </div>
     </div>
-    <hr>
-    <div class="intership">
-        <h2 class="intern-heading">Intership</h2>
-        <p class="intern-detail">
-            I am completing a 6-week internship from UpskillCampus focused on core Java development. During this
-            internship, I worked on a Human Resource Management System project, gaining practical experience in Java
-            programming, object-oriented principles, and managing business-related data structures. This internship
-            has
-            enhanced my problem-solving skills and strengthened my understanding of software development.
-        </p>
-        <a class="intern-certificate"
-            href="https://drive.google.com/file/d/1Sk-Uc8r2SAwO3f8pqKOBwA-Up5FGNsbv/view?usp=drive_link">Complication
-            certificate</a>
-    </div>
-    <h2 class="contact">Contact</h2>
-    <div class="bottom-container">
-        <a class="contact1" href="https://www.linkedin.com/in/amit-yadav-489b23311/">LinkedIn <img
-                src="./images/LinkInImg.png" height="20px"></a>
-        <a class="contact1" href="https://github.com/Amit1045">github <img src="./images/GitHubImg.webp"
-                height="20px"></a>
-        <a class="contact1" href="https://www.instagram.com/amit1045_/">Instagram <img src="./images/InstaImg.png"
-                height="20px"></a>
-        <a class="contact1"
-            href="mailto:amitya9854@gmail.com?subject=Hello%20There&body=I'd%20like%20to%20connect%20with%20you">Email
-            <img src="./images/EmailImg.webp" height="20px"></a>
-        <p class="copyright">©copyright 2025.</p>
-    </div>
+
 </body>
 
 </html>
